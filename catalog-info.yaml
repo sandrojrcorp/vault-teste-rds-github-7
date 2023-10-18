@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "vault-teste-rds-github-7"
+  annotations:
+    github.com/project-slug: sandrojrcorp/vault-teste-rds-github-7
+    github.com/workflows: vault.yml
+    backstage.io/techdocs-ref: dir:.
+    vault.io/secrets-path: devportal
+spec:
+  type: devops
+  lifecycle: experimental
+  owner: "group:default/admin"
